@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_util">
+      <UniqueIdentifier>{e4f0ea36-f087-4c08-b09f-b87802ca12c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{3e023855-cbb3-40f1-8721-ab7648bd3621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_external">
+      <UniqueIdentifier>{cf5f2e20-4773-4545-a5a7-876b9800d21c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ExceptionReport.cpp">
+      <Filter>_util</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>_util</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPool.cpp">
+      <Filter>_util</Filter>
+    </ClCompile>
+    <ClCompile Include="util_common.cpp">
+      <Filter>_util</Filter>
+    </ClCompile>
+    <ClCompile Include="util_String.cpp">
+      <Filter>_util</Filter>
+    </ClCompile>
+    <ClCompile Include="util_Time.cpp">
+      <Filter>_util</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeLock.cpp">
+      <Filter>_util</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultConfig.cpp" />
+    <ClCompile Include="_json.cpp">
+      <Filter>_util</Filter>
+    </ClCompile>
+    <ClCompile Include="util_FileManagement.cpp">
+      <Filter>_util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_external\md5.cpp">
+      <Filter>_external</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExceptionReport.h">
+      <Filter>_util</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>_util</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>_util</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>_util</Filter>
+    </ClInclude>
+    <ClInclude Include="util_common.h">
+      <Filter>_util</Filter>
+    </ClInclude>
+    <ClInclude Include="util_String.h">
+      <Filter>_util</Filter>
+    </ClInclude>
+    <ClInclude Include="util_Time.h">
+      <Filter>_util</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeLock.h">
+      <Filter>_util</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultConfig.h" />
+    <ClInclude Include="_json.h">
+      <Filter>_util</Filter>
+    </ClInclude>
+    <ClInclude Include="util_FileManagement.h">
+      <Filter>_util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_external\md5.h">
+      <Filter>_external</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
